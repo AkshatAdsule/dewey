@@ -142,7 +142,10 @@ class _AccountPageState extends State<AccountPage> {
                   child: Text(_loading ? 'Saving...' : 'Update'),
                 ),
                 const SizedBox(height: 18),
-                TextButton(onPressed: _signOut, child: const Text('Sign Out')),
+                TextButton(
+                  onPressed: _signOut,
+                  child: const Text('Sign Out'),
+                ),
               ],
             ),
     );
